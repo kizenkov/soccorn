@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/soccorn/static/css/main.c04f0f6c.chunk.css",
-    "main.js": "/soccorn/static/js/main.1ef5df9a.chunk.js",
-    "main.js.map": "/soccorn/static/js/main.1ef5df9a.chunk.js.map",
-    "runtime-main.js": "/soccorn/static/js/runtime-main.1d73e853.js",
-    "runtime-main.js.map": "/soccorn/static/js/runtime-main.1d73e853.js.map",
-    "static/js/2.9eee5fb4.chunk.js": "/soccorn/static/js/2.9eee5fb4.chunk.js",
-    "static/js/2.9eee5fb4.chunk.js.map": "/soccorn/static/js/2.9eee5fb4.chunk.js.map",
-    "static/css/3.4953b930.chunk.css": "/soccorn/static/css/3.4953b930.chunk.css",
+    "main.css": "/soccorn/static/css/main.40f5743f.chunk.css",
+    "main.js": "/soccorn/static/js/main.0e7f5adc.chunk.js",
+    "main.js.map": "/soccorn/static/js/main.0e7f5adc.chunk.js.map",
+    "runtime-main.js": "/soccorn/static/js/runtime-main.e8db3379.js",
+    "runtime-main.js.map": "/soccorn/static/js/runtime-main.e8db3379.js.map",
+    "static/js/2.55824014.chunk.js": "/soccorn/static/js/2.55824014.chunk.js",
+    "static/js/2.55824014.chunk.js.map": "/soccorn/static/js/2.55824014.chunk.js.map",
+    "static/css/3.88d15649.chunk.css": "/soccorn/static/css/3.88d15649.chunk.css",
     "static/js/3.c67b00a8.chunk.js": "/soccorn/static/js/3.c67b00a8.chunk.js",
     "static/js/3.c67b00a8.chunk.js.map": "/soccorn/static/js/3.c67b00a8.chunk.js.map",
     "static/css/4.02f27bae.chunk.css": "/soccorn/static/css/4.02f27bae.chunk.css",
@@ -16,19 +16,19 @@
     "static/js/5.0ce71441.chunk.js": "/soccorn/static/js/5.0ce71441.chunk.js",
     "static/js/5.0ce71441.chunk.js.map": "/soccorn/static/js/5.0ce71441.chunk.js.map",
     "index.html": "/soccorn/index.html",
-    "static/css/3.4953b930.chunk.css.map": "/soccorn/static/css/3.4953b930.chunk.css.map",
+    "static/css/3.88d15649.chunk.css.map": "/soccorn/static/css/3.88d15649.chunk.css.map",
     "static/css/4.02f27bae.chunk.css.map": "/soccorn/static/css/4.02f27bae.chunk.css.map",
-    "static/css/main.c04f0f6c.chunk.css.map": "/soccorn/static/css/main.c04f0f6c.chunk.css.map",
-    "static/js/2.9eee5fb4.chunk.js.LICENSE.txt": "/soccorn/static/js/2.9eee5fb4.chunk.js.LICENSE.txt",
+    "static/css/main.40f5743f.chunk.css.map": "/soccorn/static/css/main.40f5743f.chunk.css.map",
+    "static/js/2.55824014.chunk.js.LICENSE.txt": "/soccorn/static/js/2.55824014.chunk.js.LICENSE.txt",
     "static/media/corn.f193bbcf.png": "/soccorn/static/media/corn.f193bbcf.png",
     "static/media/heart.ecd2e1cc.png": "/soccorn/static/media/heart.ecd2e1cc.png",
     "static/media/spiner.9e5df79f.svg": "/soccorn/static/media/spiner.9e5df79f.svg",
     "static/media/userIcon.jpg": "/soccorn/static/media/userIcon.e289728f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d73e853.js",
-    "static/js/2.9eee5fb4.chunk.js",
-    "static/css/main.c04f0f6c.chunk.css",
-    "static/js/main.1ef5df9a.chunk.js"
+    "static/js/runtime-main.e8db3379.js",
+    "static/js/2.55824014.chunk.js",
+    "static/css/main.40f5743f.chunk.css",
+    "static/js/main.0e7f5adc.chunk.js"
   ]
 }
