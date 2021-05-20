@@ -1,0 +1,7 @@
+.button {
+    background-color: darkorange;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: 0.5s;
+    cursor: pointer;
+}

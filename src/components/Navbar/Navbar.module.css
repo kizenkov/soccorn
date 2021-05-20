@@ -1,0 +1,32 @@
+.navbar {
+  grid-area: n;
+  background-color: black;
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  margin-top: 83px;
+  transition: 0.5s
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white
+}
+
+.navbar button {
+  width: 120px
+}
+
+.navbar .links div {
+  padding: 10px;
+  margin-left: 15px;
+  text-align: left
+}
+
+.themeButtons {
+  margin-top: 10vh
+}
+
+.themeButtons div {
+  padding: 10px
+}

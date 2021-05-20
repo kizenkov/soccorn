@@ -1,0 +1,100 @@
+.profile {
+    display: grid;
+    grid-template-areas: 'a d'
+                        'a p';
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 400px 1fr;
+    grid-gap: 3px;
+    background-color: white;
+    transition: 0.5s
+}
+
+.avatar {
+    grid-area: a;
+    background-color: gold;
+    height: 100%;
+    position: fixed;
+    width: 300px;
+    transition: 0.5s
+}
+
+.avatar img {
+    width: 290px;
+    text-align: center;
+    margin: 5px
+}
+
+.avatar label {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 20px;
+    cursor: pointer;
+    transition: 0.5s
+}
+
+.avatar .uploadPhoto input {
+    visibility: hidden
+}
+
+.myStatus:hover {
+    cursor: pointer
+}
+
+.description {
+    grid-area: d;
+    background-color: gold;
+    text-align: left;
+    padding: 10px;
+    transition: 0.5s
+}
+
+.description span {
+    display: inline-block;
+    margin: 2px;
+    padding-left: 30px;
+    font-style: italic;
+    text-decoration: underline
+}
+
+.posts {
+    grid-area: p;
+    background-color: gold;
+    text-align: left;
+    padding: 10px
+}
+
+.posts .sendArea {
+    text-align: center
+}
+
+.posts .sendArea textarea {
+    width: 40vw;
+    resize: none
+}
+
+.post {
+    padding: 10px
+}
+
+.post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px
+}
+
+.post div {
+    float: right
+}
+
+.like img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding: 3px
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    height: 10px
+}

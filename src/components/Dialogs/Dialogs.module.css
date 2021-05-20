@@ -1,0 +1,78 @@
+.dialogs {
+    display: grid;
+    grid-template-areas: 'd m'
+                         'd m';
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    grid-gap: 3px;
+    height: calc(100vh - 83px)
+}
+
+.dialog {
+    grid-area: d;
+    background-color: gold;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    transition: 0.5s
+}
+
+.dialog div {
+    cursor: pointer;
+    transition: 0.5s
+}
+
+.dialog .activeName {
+    transform: scale(1.5, 1.5);
+    margin-left: 5vw
+}
+
+.messages {
+    grid-area: m;
+    display: grid;
+    grid-template-areas: 'mess'
+                         'send';
+    grid-template-rows: 5fr 1fr;
+    grid-gap: 3px
+}
+
+.message {
+    grid-area: mess;
+    background-color: gold;
+    padding: 15px;
+    transition: 0.5s
+}
+
+.message div {
+    margin-top: 15px
+}
+
+.message .choosingDialog {
+    font-size: 2em;
+    padding: 50px;
+    font-style: italic;
+    color: gray
+}
+
+.message .messageFromMe {
+    color: saddlebrown;
+    text-align: start;
+    font-style: italic;
+    width: 70%
+}
+
+.sendArea {
+    grid-area: send;
+    background-color: gold;
+    position: sticky;
+    bottom: 0;
+    padding: 15px;
+    border-top: 3px solid white;
+    transition: 0.5s
+}
+
+.sendArea textarea {
+    width: 50vw;
+    resize: none
+}

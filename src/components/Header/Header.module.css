@@ -1,0 +1,31 @@
+.header {
+  grid-area: h;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  transition: 0.5s;
+  border-bottom: 3px solid white
+}
+
+.header span {
+  cursor: pointer
+}
+
+.header a {
+  color: white
+}
+
+.header .login {
+  color: white;
+  text-decoration: none;
+  float: right;
+  padding: 20px
+}
+
+
+.headerImg {
+  float: left;
+  width: 150px;
+  height: 80px
+}

@@ -1,0 +1,32 @@
+.login {
+    text-align: center;
+    margin-top: 100px;
+    min-height: calc(100vh - 183px);
+}
+
+.login .fieldWithValidate {
+    text-align: left;
+    margin-left: 42%;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    height: 140px;
+}
+
+.login input {
+    height: 25px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.login .form span {
+    color: red;
+    font-style: italic;
+}
+
+.login button {
+    width: 100px;
+    height: 30px;
+}

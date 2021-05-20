@@ -1,0 +1,57 @@
+.users {
+    text-align: left;
+    margin-left: 10px;
+    transition: 0.5s
+}
+
+.users button {
+    font-size: 0.8em;
+    text-align: center;
+    width: 100px
+}
+
+.users span {
+    cursor: pointer;
+    margin: 4px
+}
+
+.users .currentPage {
+    font-weight: bold
+}
+
+.users .paginator {
+    text-align: center;
+    margin: 20px
+}
+
+.users .paginator button {
+    background-color: darkorange;
+    font-size: 1.5em;
+    border-radius: 15px
+}
+
+.users .paginator .pages {
+    min-width: 40px;
+    display: inline-block;
+    font-size: 1.2em
+}
+
+.user {
+    padding: 5px
+}
+
+.user img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px
+}
+
+.user .inline {
+    display: inline-block
+}
+
+.description {
+    position: relative;
+    bottom: 30px;
+    padding-left: 10px
+}
