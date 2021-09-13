@@ -33,7 +33,7 @@ export const profileAPI = {
     updateStatus(status) {
         return instance.put(`/profile/status`, {status});
     },
-    login(email, password, rememberMe, captcha = null) {
+    login(email, password, rememberMe = false, captcha = null) {
         return instance.post(`auth/login`, {email, password, rememberMe, captcha});
     },
     logout() {
