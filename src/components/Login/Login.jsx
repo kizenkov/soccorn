@@ -23,7 +23,6 @@ const Login = ({isAuth, wrongData, captchaUrl, logined}) => {
 
     function check(e) {
         e.preventDefault();
-        debugger
         logined(login.current.value, password.current.value)
     }
 
