@@ -49,7 +49,7 @@ const Login = ({isAuth, wrongData, captchaUrl, logined}) => {
                         {touched.password && errors.password && <span>{errors.password}</span>}
                     </div>
                     <div className={classes.fieldWithValidate}>
-                        {createField('confirmPassword', handleChange, handleBlur, 'confirmPassword',
+                        {createField('confirmPassword', handleChange, handleBlur, 'confirm password',
                             values.confirmPassword, 'password')}
                         {touched.confirmPassword && errors.confirmPassword && <span>{errors.confirmPassword}</span>}
                     </div>

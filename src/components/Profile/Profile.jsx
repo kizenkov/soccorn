@@ -32,7 +32,7 @@ class Profile extends React.Component {
 
     render() {
         return <div className={classes.profile}>
-//             {this.props.isFetching && <Loading/>}
+            {this.props.isFetching && <Loading/>}
             <Avatar photo={this.props.profile.photos.large}
                     fullName={this.props.profile.fullName}
                     updateStatus={this.updateStatus}
