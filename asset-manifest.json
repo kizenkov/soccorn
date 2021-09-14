@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/soccorn/static/css/main.264032cc.chunk.css",
-    "main.js": "/soccorn/static/js/main.116316e9.chunk.js",
-    "main.js.map": "/soccorn/static/js/main.116316e9.chunk.js.map",
+    "main.js": "/soccorn/static/js/main.fb7c3d68.chunk.js",
+    "main.js.map": "/soccorn/static/js/main.fb7c3d68.chunk.js.map",
     "runtime-main.js": "/soccorn/static/js/runtime-main.ff34bdfc.js",
     "runtime-main.js.map": "/soccorn/static/js/runtime-main.ff34bdfc.js.map",
     "static/js/2.10857308.chunk.js": "/soccorn/static/js/2.10857308.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.ff34bdfc.js",
     "static/js/2.10857308.chunk.js",
     "static/css/main.264032cc.chunk.css",
-    "static/js/main.116316e9.chunk.js"
+    "static/js/main.fb7c3d68.chunk.js"
   ]
 }
