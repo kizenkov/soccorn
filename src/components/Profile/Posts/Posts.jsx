@@ -4,10 +4,11 @@ import Post from './Post/Post';
 import {createSendArea} from '../../../common/helpers';
 import {ThemeContext} from '../../../store/appReducer';
 
-const Posts = ({posts, sendPost, incrementLike}) => {
+const Posts = ({posts, sendPost, incrementLike, photo}) => {
     const theme = useContext(ThemeContext)
     let postsElement = [...posts].reverse().map(p => <Post key={p.id} postMessage={p.postMessage}
                                                            id={p.id}
+                                                           photo={photo}
                                                            likesCount={p.likesCount}
                                                            incrementLike={incrementLike}
         />

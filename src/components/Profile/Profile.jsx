@@ -48,6 +48,7 @@ class Profile extends React.Component {
                          wrongDataProfile={this.props.wrongDataProfile}
             />
             <Posts posts={this.props.posts}
+                   photo={this.props.profile.photos.large}
                    sendPost={this.props.sendPost}
                    backgroundContent={this.props.backgroundContent}
                    incrementLike={this.props.incrementLike}
