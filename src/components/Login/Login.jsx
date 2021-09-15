@@ -22,7 +22,7 @@ const Login = ({isAuth, wrongData, captchaUrl, logined}) => {
     return <div className={classes.login}>
         {isAuth && <Redirect to={'/profile'}/>}
 
-        <form className='container' onSubmit={check}>
+        <form className='container' >
             <div className='mb-3'>
                 <label className='form-label'>Login</label>
                 <input type='text' className='form-control text-center' ref={login}/>
@@ -35,7 +35,7 @@ const Login = ({isAuth, wrongData, captchaUrl, logined}) => {
                 <label className='form-label'>Remember me</label>
                 <input type='checkbox' ref={rememberMe}/>
             </div>
-            {Button('Log in', null, false, theme.backgroundButton, 'submit')}
+            {Button('Log in', check, false, theme.backgroundButton, 'submit')}
         </form>
 
         <div className={classes.error}>
